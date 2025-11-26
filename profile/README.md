@@ -2,8 +2,6 @@
 
 **Open-source vibrotactile therapy devices for Parkinson's disease symptom relief**
 
----
-
 ## Our Mission
 
 BlueBuzzah Partners is building accessible, open-source technology to bring vibrotactile coordinated reset (vCR) therapy to patients with Parkinson's disease. Our goal is to empower individuals and caregivers to construct affordable, wireless therapy gloves based on publicly available research demonstrating the potential of this non-invasive approach.
@@ -15,6 +13,7 @@ Research from institutions like Stanford University has shown promising results 
 The principle is elegant: fingertips contain dense concentrations of sensory neurons, allowing non-invasive stimulation of large brain regions without surgery or medication changes.
 
 **Key Research References:**
+
 - [Stanford Medicine: Vibrating Glove to Reorganize Neurons](https://stanmed.stanford.edu/vibrating-glove-reorganize-neurons-parkinsons/)
 - [Vibrotactile coordinated reset stimulation for the treatment of Parkinson's disease](https://pmc.ncbi.nlm.nih.gov/articles/PMC8771098/)
 
@@ -25,6 +24,7 @@ The principle is elegant: fingertips contain dense concentrations of sensory neu
 The heart of the BlueBuzzah glove system. This firmware runs on the BlueBuzzah devices and controls the vibrotactile therapy sessions.
 
 **Features:**
+
 - Bluetooth Low Energy (BLE) connectivity for wireless operation
 - Synchronized left/right hand vibration patterns
 - Configurable therapy sessions and patterns
@@ -35,6 +35,7 @@ The heart of the BlueBuzzah glove system. This firmware runs on the BlueBuzzah d
 A desktop application for managing and updating BlueBuzzah glove firmware. Simplifies the process of keeping your devices up to date without requiring technical expertise.
 
 **Features:**
+
 - Cross-platform desktop support
 - Easy firmware updates over USB
 - Device configuration and diagnostics
@@ -44,6 +45,7 @@ A desktop application for managing and updating BlueBuzzah glove firmware. Simpl
 A mobile companion app for controlling and monitoring your BlueBuzzah therapy sessions from your smartphone.
 
 **Features:**
+
 - Bluetooth connection to BlueBuzzah gloves
 - Session control and scheduling
 - Progress tracking

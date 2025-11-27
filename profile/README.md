@@ -19,7 +19,7 @@ The principle is elegant: fingertips contain dense concentrations of sensory neu
 
 ## Our Projects
 
-### [BlueBuzzah2-Firmware](https://github.com/BlueBuzzah/BlueBuzzah2-Firmware)
+### [BlueBuzzah-Firmware](https://github.com/BlueBuzzah/BlueBuzzah-Firmware)
 
 The heart of the BlueBuzzah glove system. This firmware runs on the BlueBuzzah devices and controls the vibrotactile therapy sessions.
 

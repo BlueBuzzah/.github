@@ -1,78 +1,60 @@
 # BlueBuzzah Partners
 
-**Open-source vibrotactile therapy devices for Parkinson's disease symptom relief**
+**An open-source research project: vibrotactile stimulation gloves you build yourself**
 
-## Our Mission
+## What we do
 
-BlueBuzzah Partners is building accessible, open-source technology to bring vibrotactile coordinated reset (vCR) therapy to patients with Parkinson's disease. Our goal is to empower individuals and caregivers to construct affordable, wireless therapy gloves based on publicly available research demonstrating the potential of this non-invasive approach.
+BlueBuzzah Partners is a group of volunteers. We publish open hardware designs, firmware, apps and documentation for a pair of wireless gloves that deliver patterned vibration to the fingertips, inspired by published research on vibrotactile coordinated reset (vCR) stimulation in Parkinson's disease. We do not make, sell or ship devices. Anyone who wants a pair buys the parts and builds it with the guide at [bluebuzzah.com](https://bluebuzzah.com).
 
-## The Science Behind It
+## The research
 
-Research from institutions like Stanford University has shown promising results using patterned fingertip vibrations to address Parkinson's symptoms. The approach works by delivering gentle vibrations (around 250 Hz) to the fingertips, which stimulate sensory neurons connected to motor control regions of the brain. Studies have documented improvements in tremor, rigidity, balance, and movement—with some patients reporting unexpected benefits like mood stabilization and restored sense of smell.
+Published studies have explored patterned fingertip vibration, around 250 Hz, delivered in coordinated reset sequences, with participants who have Parkinson's disease. Those studies used their own devices and protocols under medical supervision. BlueBuzzah is an independent open design and does not claim the same results.
 
-The principle is elegant: fingertips contain dense concentrations of sensory neurons, allowing non-invasive stimulation of large brain regions without surgery or medication changes.
-
-**Key Research References:**
-
-- [Stanford Medicine: Vibrating Glove to Reorganize Neurons](https://stanmed.stanford.edu/vibrating-glove-reorganize-neurons-parkinsons/)
 - [Vibrotactile coordinated reset stimulation for the treatment of Parkinson's disease](https://pmc.ncbi.nlm.nih.gov/articles/PMC8771098/)
+- [Coordinated reset vibrotactile stimulation induces sustained cumulative benefits in Parkinson's disease](https://pmc.ncbi.nlm.nih.gov/articles/PMC8055937/)
+- [Stanford Medicine: Vibrating glove to reorganize neurons](https://stanmed.stanford.edu/vibrating-glove-reorganize-neurons-parkinsons/)
 
-## Our Projects
+## Our projects
+
+### [BlueBuzzah-Hardware](https://github.com/BlueBuzzah/BlueBuzzah-Hardware)
+
+The glove itself: PCB, parts list, 3D-printed case and tactor parts, and the build guide's source material.
 
 ### [BlueBuzzah-Firmware](https://github.com/BlueBuzzah/BlueBuzzah-Firmware)
 
-The heart of the BlueBuzzah glove system. This firmware runs on the BlueBuzzah devices and controls the vibrotactile therapy sessions.
+Runs on the gloves and controls the stimulation sessions.
 
-**Features:**
-
-- Bluetooth Low Energy (BLE) connectivity for wireless operation
-- Synchronized left/right hand vibration patterns
-- Configurable therapy sessions and patterns
-- Low power design for extended battery life
+- Bluetooth Low Energy (BLE) connectivity, no cables between the gloves
+- Synchronized patterns across the primary and secondary glove
+- Configurable session profiles and patterns
+- Low power design for long battery life
 
 ### [BlueBuzzah-Updater](https://github.com/BlueBuzzah/BlueBuzzah-Updater)
 
-A desktop application for managing and updating BlueBuzzah glove firmware. Simplifies the process of keeping your devices up to date without requiring technical expertise.
-
-**Features:**
-
-- Cross-platform desktop support
-- Easy firmware updates over USB
-- Device configuration and diagnostics
+A desktop app for installing firmware and setting up the gloves over USB, on macOS and Windows.
 
 ### [BuzzahBuddy](https://github.com/BlueBuzzah/BuzzahBuddy)
 
-A mobile companion app for controlling and monitoring your BlueBuzzah therapy sessions from your smartphone.
+The companion app for iPhone, iPad and Android: start and stop sessions, adjust settings, and look back at your history, over Bluetooth.
 
-**Features:**
+Coming soon. Visit [buzzahbuddy.com](https://buzzahbuddy.com) for updates.
 
-- Bluetooth connection to BlueBuzzah gloves
-- Session control and scheduling
-- Progress tracking
+## Build your own
 
-**Coming Soon!** Visit [www.buzzahbuddy.com](https://www.buzzahbuddy.com) for updates.
+The gloves are designed to be built by people with basic electronics skills:
 
-## Build Your Own
-
-The BlueBuzzah system is designed to be built by individuals with basic electronics skills. Our designs use:
-
-- **Wireless BLE technology** to minimize bulk and eliminate cables between hands
-- **Spring-based LRA buzzers** for precise, localized fingertip vibrations
-- **Open-source hardware and software** with comprehensive documentation
+- Wireless BLE between the gloves, so there are no cables between your hands
+- Spring-mounted LRA motors for precise, localized fingertip vibration
+- Open-source hardware and software with a step-by-step build guide
 
 ## License
 
-Most BlueBuzzah projects are released under the [MIT License](https://opensource.org/licenses/MIT), promoting open collaboration and accessibility.
+All BlueBuzzah repositories are released under the [MIT License](https://opensource.org/licenses/MIT). Each repository carries its own license file.
 
-## Medical Disclaimer
+## Important notices
 
-**BlueBuzzah devices have not been evaluated or approved by the FDA or any other regulatory body.**
+BlueBuzzah devices are not FDA approved medical devices and not intended to diagnose, treat, cure, or prevent any disease. The information provided through BlueBuzzah is for general wellness purposes only and not a substitute for professional medical advice, diagnosis, or treatment.
 
-This technology is provided for informational and experimental purposes only. It is **not** a medical device and should **not** be used as a substitute for professional medical advice, diagnosis, or treatment.
+**Important:** People with implanted electrodes from deep brain stimulation (DBS), heart pacemakers, or other internal electronic devices should take special precautions around all electronic devices, including BlueBuzzah. Consult your physician before use.
 
-- Always consult with your physician before using vibrotactile therapy
-- Never adjust medications without medical supervision
-- Individual results vary significantly; what works for one person may not work for another
-- This project is inspired by publicly available research but is not affiliated with or endorsed by Stanford University, Tass Lab, or any medical institution
-
-**Use at your own risk.** The BlueBuzzah Partners community provides these designs in good faith but cannot guarantee safety, efficacy, or suitability for any individual's medical condition.
+Read the [terms and safety](https://bluebuzzah.com/terms) page before you build or wear a pair, and the [privacy policy](https://bluebuzzah.com/privacy) for what the apps do with your data.

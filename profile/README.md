@@ -49,9 +49,9 @@ The gloves are designed to be built by people with basic electronics skills:
 
 ## License
 
-- Code (the firmware, the apps, scripts and website code): [MIT](https://opensource.org/licenses/MIT)
+- Code (the firmware, the apps, scripts and website code), with each code repository's README and docs: [MIT](https://opensource.org/licenses/MIT)
 - Board designs: [CERN-OHL-S v2](https://ohwr.org/cern_ohl_s_v2.txt)
-- 3D models, guides, docs and website content: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- 3D models, the build guide, the wikis, website content and the Hardware repository's docs: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Each repository carries its license files and says which parts each license covers.
 

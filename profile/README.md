@@ -49,7 +49,13 @@ The gloves are designed to be built by people with basic electronics skills:
 
 ## License
 
-All BlueBuzzah repositories are released under the [MIT License](https://opensource.org/licenses/MIT). Each repository carries its own license file.
+- Code (the firmware, the apps, scripts and website code): [MIT](https://opensource.org/licenses/MIT)
+- Board designs: [CERN-OHL-S v2](https://ohwr.org/cern_ohl_s_v2.txt)
+- 3D models, guides, docs and website content: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+Each repository carries its license files and says which parts each license covers.
+
+The BlueBuzzah and BuzzahBuddy names and logos are not covered by these licenses. See [Licenses and the BlueBuzzah name](https://bluebuzzah.com/terms#licenses).
 
 ## Important notices
 

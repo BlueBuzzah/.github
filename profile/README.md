@@ -49,11 +49,17 @@ The gloves are designed to be built by people with basic electronics skills:
 
 ## License
 
-All BlueBuzzah repositories are released under the [MIT License](https://opensource.org/licenses/MIT). Each repository carries its own license file.
+- Code (the firmware, the apps, scripts and website code), with each code repository's README and docs: [MIT](https://opensource.org/licenses/MIT)
+- Board designs: [CERN-OHL-S v2](https://ohwr.org/cern_ohl_s_v2.txt)
+- 3D models, the build guide, the wikis, website content and the Hardware repository's docs: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+Each repository carries its license files and says which parts each license covers.
+
+The BlueBuzzah and BuzzahBuddy names and logos are not covered by these licenses. See [Licenses and the BlueBuzzah name](https://bluebuzzah.com/terms#licenses).
 
 ## Important notices
 
-BlueBuzzah devices are not FDA approved medical devices and not intended to diagnose, treat, cure, or prevent any disease. The information provided through BlueBuzzah is for general wellness purposes only and not a substitute for professional medical advice, diagnosis, or treatment.
+BlueBuzzah devices are not FDA cleared or approved medical devices and not intended to diagnose, treat, cure, mitigate, or prevent any disease. The information provided through BlueBuzzah is for general wellness purposes only and not a substitute for professional medical advice, diagnosis, or treatment.
 
 **Important:** People with implanted electrodes from deep brain stimulation (DBS), heart pacemakers, or other internal electronic devices should take special precautions around all electronic devices, including BlueBuzzah. Consult your physician before use.
 
